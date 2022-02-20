@@ -8,9 +8,8 @@ var myFullpage = new fullpage('#fullpage', {
     scrollBar: true,
     navigation:true,
     autoScrolling: true,
-    afterLoad: function(origin, destination, direction){},
-
-
+    //scrollOverflow: true,
+    normalScrollElements:'#s5',
     
 });
 
