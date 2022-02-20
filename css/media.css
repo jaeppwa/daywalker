@@ -184,27 +184,26 @@ dd.icon{
 
 
 }
+
+
 @media (max-width:670px){
-    .footer_w{
-       width:500px;
-    }
-}
-@media (max-width:520px){
     .headerIn ul{display:none;} 
     h1{font-size: 25px;
     line-height: 75px;}
     #s1{display:none;}
     .slick-slide{
         width:100%;
-       
-
-}   .prolist{display: block;}
+       } 
+    .slidebox{
+        width:100%;
+    }   
+    .prolist{display: block;}
     .proitem{float:left; 
     width:100%;
     height:50%;}
     .contain {
     height:2450px;}
-    dd.pri{margin-left:50px;}
+    dd.pri{margin-left:10px;}
     dd.dis{margin-left:20px;}
     dd.icon{margin-left: 20px;}
     .showtime{display:none;}
@@ -213,8 +212,8 @@ dd.icon{
   .cell1 {left:0;}
   .ham{
     position: absolute;
-    right:10px;
-    top:10px;
+    right:2%;
+    top:13px;
     display:block;
     width:50px; 
     height:50px;
@@ -227,25 +226,25 @@ dd.icon{
     display:block;
     margin-top:23px;
     margin-left: 5px;
-    width:40px; 
-    height:5px; 
+    width:25px; 
+    height:2px; 
     border-radius:10px;
-    background-color: #808800; 
+    background-color: #464b04; 
     }
     .btn:before,.btn:after{
         position: absolute;
         border-radius:10px;
         display:block;
         content:"";
-        width:40px; 
-        height:5px; 
-        background-color: #808800; 
+        width:25px; 
+        height:2px; 
+        background-color: #464b04;
     }
     .btn:before{
-        top:-15px;
+        top:-8px;
     }
     .btn:after{
-        top:15px;
+        top:8px;
     }
     .btn.on{
         background-color:transparent; 
@@ -253,11 +252,11 @@ dd.icon{
     .btn.on:before{
         transition: 0.3s;
         transform: rotate(45deg);
-        margin-top: 15px;
+        margin-top: 8px;
     }
     .btn.on:after{
         transform: rotate(135deg);
-        margin-top: -15px;
+        margin-top: -8px;
         transition: 0.3s;
     }
     .ham_menu{
@@ -289,20 +288,31 @@ dd.icon{
     .footer_w{
         width:450px;
      }
+     dd.pri{margin-left:50px;}
      .middle li{font-size: 10px;}
 
 }
-@media (min-width:320px) and (max-width:519px){
-    
-    
-    h1{font-size: 25px;
-    line-height: 75px;}
+@media (min-width:260px) and (max-width:499px){
+
+    #s0{margin-top: 100px;}
+   
+    h1{left:5%;}
     #s1{display:none;}
     .section{width:100%;;
     text-align: center;}
-    .slidebox{width:390px;}
-    .sliderlist{width:390px;}
-        
+ 
+    section p{
+        top:150px;
+    }
+    section span{
+        width:100px;
+        top:170px;}
+    section h2{
+        top:250px;}
+    .hoverbox{width:100%;}
+    .slidebox{width:100%;}
+    .sliderlist{max-width:100%}
+    .changetxt .cell_title{font-size: 30px;}
      .prolist{display: block;}
     .proitem{float:left; 
     width:100%;
@@ -313,15 +323,18 @@ dd.icon{
     section p{
         font-size:3vw;
     }
+    .thrlist li{width:100%;
+    float:none;}
     .thrlist li.second_img img{
         height:auto;
     }
     .fo_img ul li:first-child img{
         position:static;
     }
+    .thrlist li.second_img img{display:none;}
     .contain {
     height:2450px;}
-    dd.pri{margin-left:50px;}
+    dd.pri{margin-left:20px;}
     dd.dis{margin-left:20px;}
     dd.icon{margin-left: 20px;}
     .showtime{display:none;}
@@ -330,7 +343,6 @@ dd.icon{
   .cell1 {left:0;}
   .cell2 {left:10px;}
   .slick-next {left:90%;}
-  .changetxt{left:10%;}
   .ham{
    
     right:20%;
@@ -348,5 +360,5 @@ dd.icon{
         padding-bottom: 30px;}
     .middle{display:none;}
     .top li{font-size: 8px;}
-    
+    .textbox{margin-left: 0;}
 }
